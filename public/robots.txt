@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Allow crawling of main pages
+Allow: /
+Allow: /templates
+Allow: /pricing
+Allow: /login
+Allow: /register
+
+# Disallow private areas
+Disallow: /dashboard
+Disallow: /builder
+Disallow: /api
+
+# Sitemap location
+Sitemap: https://resumebuilderpro.com/sitemap.xml
